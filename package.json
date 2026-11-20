@@ -1,0 +1,15 @@
+{
+  "name": "fraudquest-poc",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PoC: gamified customer transaction review that produces fraud-model training labels",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "reset": "node server.js --reset",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}
